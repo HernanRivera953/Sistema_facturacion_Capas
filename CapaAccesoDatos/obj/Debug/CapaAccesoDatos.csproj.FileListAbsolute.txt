@@ -1,0 +1,12 @@
+C:\Users\Valentina\source\repos\FACTURACION_CAPAS_DISENO_MODERNO\Sistema_facturacion_Capas\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\Valentina\source\repos\FACTURACION_CAPAS_DISENO_MODERNO\Sistema_facturacion_Capas\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\Valentina\source\repos\FACTURACION_CAPAS_DISENO_MODERNO\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csprojAssemblyReference.cache
+C:\Users\Valentina\source\repos\FACTURACION_CAPAS_DISENO_MODERNO\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Valentina\source\repos\FACTURACION_CAPAS_DISENO_MODERNO\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\Valentina\source\repos\FACTURACION_CAPAS_DISENO_MODERNO\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\herna\source\repos\Sistema_facturacion_Capas\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\herna\source\repos\Sistema_facturacion_Capas\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\herna\source\repos\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\herna\source\repos\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\herna\source\repos\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\herna\source\repos\Sistema_facturacion_Capas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

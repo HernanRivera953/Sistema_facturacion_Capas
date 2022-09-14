@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B20F05D-7D75-49EE-B266-A1F229A1CF85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_facturacion</RootNamespace>
+    <AssemblyName>Sistema_facturacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuscarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarClientes.Designer.cs">
+      <DependentUpon>BuscarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarProductos.Designer.cs">
+      <DependentUpon>BuscarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreacionFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreacionFactura.Designer.cs">
+      <DependentUpon>CreacionFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearEditarRol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearEditarRol.Designer.cs">
+      <DependentUpon>CrearEditarRol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformacionEmpleado.Designer.cs">
+      <DependentUpon>InformacionEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingreso.Designer.cs">
+      <DependentUpon>Ingreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcAcercade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcAcercade.Designer.cs">
+      <DependentUpon>OpcAcercade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcAyuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcAyuda.Designer.cs">
+      <DependentUpon>OpcAyuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcCategoria.Designer.cs">
+      <DependentUpon>OpcCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcClientes.Designer.cs">
+      <DependentUpon>OpcClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcFacturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcFacturas.Designer.cs">
+      <DependentUpon>OpcFacturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionEmpleado.Designer.cs">
+      <DependentUpon>OpcionEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionInformes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionInformes.Designer.cs">
+      <DependentUpon>OpcionInformes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionRoles.Designer.cs">
+      <DependentUpon>OpcionRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionSeguridad.Designer.cs">
+      <DependentUpon>OpcionSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpcProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcProductos.Designer.cs">
+      <DependentUpon>OpcProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VPrincipal.Designer.cs">
+      <DependentUpon>VPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BuscarClientes.resx">
+      <DependentUpon>BuscarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarProductos.resx">
+      <DependentUpon>BuscarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreacionFactura.resx">
+      <DependentUpon>CreacionFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearEditarRol.resx">
+      <DependentUpon>CrearEditarRol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformacionEmpleado.resx">
+      <DependentUpon>InformacionEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingreso.resx">
+      <DependentUpon>Ingreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcAcercade.resx">
+      <DependentUpon>OpcAcercade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcAyuda.resx">
+      <DependentUpon>OpcAyuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcCategoria.resx">
+      <DependentUpon>OpcCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcClientes.resx">
+      <DependentUpon>OpcClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcFacturas.resx">
+      <DependentUpon>OpcFacturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionEmpleado.resx">
+      <DependentUpon>OpcionEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionInformes.resx">
+      <DependentUpon>OpcionInformes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionRoles.resx">
+      <DependentUpon>OpcionRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionSeguridad.resx">
+      <DependentUpon>OpcionSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcProductos.resx">
+      <DependentUpon>OpcProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VPrincipal.resx">
+      <DependentUpon>VPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo%282%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo%283%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo%284%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo%285%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo%286%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salida%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salida%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salida%281%29png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salida%285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salida%284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliente%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes%282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Productos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorias%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salida%283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Factura%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roles%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seguridad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayuda%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informacion%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayudar%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informacion.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informacion%286%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaLogicaDeNegocios\CapaLogicaDeNegocios.csproj">
+      <Project>{a8b52f56-d8c2-4e0e-939c-6836848f342f}</Project>
+      <Name>CapaLogicaDeNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
